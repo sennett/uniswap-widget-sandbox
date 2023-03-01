@@ -6,12 +6,21 @@
     "start": "next start"
   },
   "dependencies": {
+    "@uniswap/widgets": "2.41",
     "date-fns": "^2.29.3",
+    "ethers": "^6.0.8",
     "gray-matter": "^4.0.3",
+    "jotai-immer": "^0.2.0",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.14.1",
+    "@types/react": "18.0.28",
+    "typescript": "4.9.5"
   }
 }
