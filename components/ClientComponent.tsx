@@ -8,6 +8,7 @@ export const ClientComponent = isServer() ? null : () => {
 
         convenienceFee={20}
         convenienceFeeRecipient="0xC7b548AD9Cf38721810246C079b2d8083aba8909"
+        defaultInputTokenAddress={undefined}
     />
 }
 
